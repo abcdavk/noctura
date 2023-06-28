@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "dave:moss_tree_with_hang_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "dave:moss_tree_feature",
+      "dave:moss_hang_scatter",
+      "dave:moss_hang_small_scatter"
+    ]
+  }
+}

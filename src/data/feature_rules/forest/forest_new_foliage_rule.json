@@ -1,0 +1,51 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:forest_new_foliage_rule",
+      "places_feature": "dave:new_foliage_random"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "meadow"
+            }
+          ]
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "birch"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "taiga"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 4,
+      "scatter_chance": "((query.noise((variable.originx + 8) / 200.0, (variable.originz + 8) / 200.0) >= -.8) && variable.is_legacy == 0.0) ? 100.0 : 0.0",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [ 0, 16 ]
+      },
+      "y": "(query.above_top_solid(v.worldx,v.worldz))",
+      "z": {
+        "distribution": "gaussian",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:forest_old_foliage_rule",
+      "places_feature": "minecraft:legacy:forest_foliage_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest_generation"
+            }
+          ]
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "roofed"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "extreme_hills"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "taiga"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 16,
+      "scatter_chance": "((query.noise((variable.originx + 8) / 200.0, (variable.originz + 8) / 200.0) >= -.8) && variable.is_legacy == 0.0) ? 100.0 : 0.0",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          "(query.above_top_solid(v.worldx,v.worldz))"
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

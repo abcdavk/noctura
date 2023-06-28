@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.220",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "dave:large_bush_feature"
+    },
+    "places_block": {
+      "name": "dave:large_bush"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:tallgrass",
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:grass"
+      ]
+    }
+  }
+}

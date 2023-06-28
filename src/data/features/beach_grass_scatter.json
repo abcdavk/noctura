@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:scatter_feature": {
+      "description": {
+        "identifier": "dave:beach_grass_scatter"
+      },
+      "places_feature": "dave:beach_grass_feature",
+      "iterations": 64,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": 0,
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }

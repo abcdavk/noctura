@@ -1,0 +1,39 @@
+{
+  "format_version": "1.13",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:island_main_bottom_fixer_rule",
+      "places_feature": "dave:island_main_bottom_fixer"
+    },
+    "conditions": {
+      "placement_pass": "before_underground_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "anti_corrupt"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": 128
+    }
+  }
+}

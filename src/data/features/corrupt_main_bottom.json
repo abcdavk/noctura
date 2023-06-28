@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "dave:corrupt_main_bottom"
+    },
+    "iterations": "v.noisemap.size = 1024;
+			v.multinoise.temp = q.noise(v.originx/v.noisemap.size, v.originz/v.noisemap.size);v.multinoise.hum = q.noise((v.originx+1024)/(v.noisemap.size/2), (v.originz-1024)/(v.noisemap.size/2));t.height = q.noise(v.originz/64,v.originx/64) * 32; return t.height;",
+    "places_feature": "dave:corrupt",
+    "x": {
+      "extent": [
+        "(v.multinoise.temp) && (v.multinoise.hum)",
+        0
+      ],
+      "distribution": "fixed_grid"
+    },
+    "z": 0,
+    "y": {
+      "extent": [
+        "t.height * -1",
+        0
+      ],
+      "distribution": "fixed_grid"
+    }
+  }
+}

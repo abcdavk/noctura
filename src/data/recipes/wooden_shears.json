@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "dave:wooden_shears"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      "XX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:stick"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "result": {
+      "item": "dave:wooden_shears",
+      "count": 1
+    }
+  }
+}

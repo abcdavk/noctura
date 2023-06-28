@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dave:weather_corrupt_ash",
+      "particle_effects": {
+        "atmosphere": "dave:corrupt_ash"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "animation.atmosphere.particles"
+      }
+    }
+  }
+}

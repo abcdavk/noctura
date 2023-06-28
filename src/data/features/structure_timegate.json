@@ -1,0 +1,14 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "dave:structure_timegate"
+    },
+    "structure_name": "mystructure:timegate",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {}
+    }
+  }
+}

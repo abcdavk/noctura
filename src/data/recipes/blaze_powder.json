@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "dave:blaze_powder"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "OOO",
+      "OXO",
+      "OOO"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:gunpowder"
+      },
+      "X": {
+        "item": "minecraft:flint_and_steel"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:flint_and_steel"
+      }
+    ],
+    "result": {
+      "item": "minecraft:blaze_powder",
+      "count": 6
+    },
+    "priority": -1
+  }
+}

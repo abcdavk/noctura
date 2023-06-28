@@ -1,0 +1,72 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "dave:leaf_pile3_feature"
+    },
+    "places_block": "dave:leaf_pile3",
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": true,
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 2,
+      "top": [
+        {
+          "name": "minecraft:air"
+        }
+      ],
+      "west": [
+        {
+          "name": "minecraft:log2",
+          "states": {
+            "old_log_type": "acacia"
+          }
+        },
+        {
+          "name": "dave:leaf_pile3"
+        }
+      ],
+      "north": [
+        {
+          "name": "minecraft:log2",
+          "states": {
+            "old_log_type": "acacia"
+          }
+        },
+        {
+          "name": "dave:leaf_pile3"
+        }
+      ],
+      "east": [
+        {
+          "name": "minecraft:log2",
+          "states": {
+            "old_log_type": "acacia"
+          }
+        },
+        {
+          "name": "dave:leaf_pile3"
+        }
+      ],
+      "south": [
+        {
+          "name": "minecraft:log2",
+          "states": {
+            "old_log_type": "acacia"
+          }
+        },
+        {
+          "name": "dave:leaf_pile3"
+        }
+      ],
+      "bottom": [
+        {
+          "name": "minecraft:grass"
+        },
+        {
+          "name": "minecraft:dirt"
+        }
+      ]
+    }
+  }
+}

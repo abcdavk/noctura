@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:birch_ground_flower_rule",
+      "places_feature": "dave:ground_flower_random"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 8,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": "(query.above_top_solid(v.worldx,v.worldz))",
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

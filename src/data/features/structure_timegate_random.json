@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:structure_timegate_random"
+    },
+    "features": [
+      [
+        "dave:structure_timegate",
+        5
+      ],
+      [
+        "dave:structure_timegate_hanging",
+        5
+      ],
+      [
+        "dave:structure_timegate_large",
+        5
+      ]
+    ]
+  }
+}

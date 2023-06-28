@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "dave:plant_string"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.nature_misc"
+      },
+      "minecraft:icon": {
+        "texture": "plant_string"
+      }
+    },
+    "events": {
+    }
+  }
+}

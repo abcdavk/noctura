@@ -1,0 +1,7 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/timegate",
+        "atlas_tile": "timegatee",
+        "ticks_per_frame": 2
+    }
+]

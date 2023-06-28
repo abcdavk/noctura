@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:new_mapple_tree_random"
+    },
+    "features": [
+      [
+        "dave:new_oak_tree_feature2",
+        5
+      ],
+      [
+        "dave:new_oak_tree_feature3",
+        5
+      ],
+      [
+        "dave:mapple_red_tree_feature",
+        5
+      ],
+      [
+        "dave:mapple_orange_tree_feature",
+        5
+      ]
+    ]
+  }
+}

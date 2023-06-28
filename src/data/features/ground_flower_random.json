@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:ground_flower_random"
+    },
+    "features": [
+      [
+        "dave:ground_flower0_feature",
+        5
+      ],
+      [
+        "dave:ground_flower1_feature",
+        5
+      ],
+      [
+        "dave:ground_flower2_feature",
+        5
+      ],
+      [
+        "dave:ground_flower3_feature",
+        5
+      ]
+    ]
+  }
+}

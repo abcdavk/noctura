@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:new_frosted_tree_random"
+    },
+    "features": [
+      [
+        "dave:new_spruce_tree_feature",
+        5
+      ],
+      [
+        "dave:frosted_tree_feature",
+        5
+      ]
+    ]
+  }
+}

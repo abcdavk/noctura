@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "dave:corrupt_netherrack_ore"
+    },
+    "count": 32,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:netherrack",
+        "may_replace": [
+          "minecraft:netherrack",
+          "minecraft:blackstone"
+        ]
+      }
+    ]
+  }
+}

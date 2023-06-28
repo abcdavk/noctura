@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "dave:air_replace"
+    },
+    "count": 72,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:air",
+        "may_replace": [
+          {
+            "name": "minecraft:planks"
+          }
+        ]
+      }
+    ]
+  }
+}

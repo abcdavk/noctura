@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dave:weather_snow",
+      "particle_effects": {
+        "atmosphere": "dave:snow"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "animation.atmosphere.particles"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.220",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "dave:upsidedown_flower2_feature"
+    },
+    "places_block": {
+      "name": "dave:upsidedown_flower2"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "top": [
+        {
+          "name": "minecraft:leaves",
+          "states": {
+            "old_leaf_type": "oak"
+          }
+        },
+        {
+          "name": "minecraft:leaves",
+          "states": {
+            "old_leaf_type": "birch"
+          }
+        }
+      ]
+    }
+  }
+}

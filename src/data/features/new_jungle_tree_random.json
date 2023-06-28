@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:new_jungle_tree_random"
+    },
+    "features": [
+      [
+        "dave:savanna_baobab_tree_feature",
+        5
+      ],
+      [
+        "dave:new_jungle_baobab_tree_feature",
+        5
+      ],
+      [
+        "dave:new_jungle_tree_feature",
+        5
+      ]
+    ]
+  }
+}

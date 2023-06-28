@@ -1,0 +1,54 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "book_of_noctura": {
+      "textures": "textures/items/book_of_noctura"
+    },
+    "wisteria_flower0": {
+      "textures": "textures/items/wisteria_flower/0"
+    },
+    "wisteria_flower1": {
+      "textures": "textures/items/wisteria_flower/1"
+    },
+    "wisteria_flower2": {
+      "textures": "textures/items/wisteria_flower/2"
+    },
+    "wisteria_flower3": {
+      "textures": "textures/items/wisteria_flower/3"
+    },
+    "moss": {
+      "textures": "textures/items/moss"
+    },
+    "wood_mushroom": {
+      "textures": "textures/items/wood_mushroom"
+    },
+    "cut_plant": {
+      "textures": "textures/items/cut_plant"
+    },
+    "stone_shard": {
+      "textures": "textures/items/stone_shard"
+    },
+    "timeinabottle": {
+      "textures": "textures/items/timeinabottle"
+    },
+    "wooden_shears": {
+      "textures": "textures/items/wooden_shears"
+    },
+    "crude_axe": {
+      "textures": "textures/items/crude_axe"
+    },
+    "crude_pickaxe": {
+      "textures": "textures/items/crude_pickaxe"
+    },
+    "crude_shovel": {
+      "textures": "textures/items/crude_shovel"
+    },
+    "plant_twine": {
+      "textures": "textures/items/plant_twine"
+    },
+    "plant_string": {
+      "textures": "textures/items/plant_string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "dave:corrupt_basalt_spike"
+    },
+    "iterations": "t.height=12+(q.noise(v.originz/64,v.originx/64))*16;return t.height;",
+    "places_feature": "dave:corrupt_basalt",
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [
+        "0",
+        "t.height"
+      ],
+      "distribution": "fixed_grid"
+    }
+  }
+}

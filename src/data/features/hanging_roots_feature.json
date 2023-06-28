@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.220",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "dave:hanging_roots_feature"
+    },
+    "places_block": {
+      "name": "minecraft:hanging_roots"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "top": [
+        {
+          "name": "minecraft:log",
+          "states": {
+            "old_log_type": "birch"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:corrupt_bottom_random"
+    },
+    "features": [
+      [
+        "dave:corrupt_bottom_diamond_ore",
+        5
+      ],
+      [
+        "dave:corrupt_bottom_lapis_ore",
+        5
+      ],
+      [
+        "dave:corrupt_bottom_quartz_ore",
+        5
+      ]
+    ]
+  }
+}

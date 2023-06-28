@@ -1,0 +1,49 @@
+{
+  "format_version": "1.13",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:corrupt_main_bottom_fixer_rule",
+      "places_feature": "dave:corrupt_main_bottom_fixer"
+    },
+    "conditions": {
+      "placement_pass": "before_underground_pass",
+      "minecraft:biome_filter": {
+        "all_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "anti_corrupt"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "forest"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "plains"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": 128
+    }
+  }
+}

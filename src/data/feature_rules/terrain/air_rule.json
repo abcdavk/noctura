@@ -1,0 +1,36 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:air_rule",
+      "places_feature": "dave:air"
+    },
+    "conditions": {
+      "placement_pass": "first_pass"
+    },
+    "distribution": {
+      "iterations": 98304,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": {
+        "distribution": "fixed_grid",
+        "extent": [
+          -64,
+          320
+        ]
+      }
+    }
+  }
+}

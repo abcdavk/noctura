@@ -1,0 +1,46 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:birch_mushroom_rule",
+      "places_feature": "dave:mushroom_random"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "jungle"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 4,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": "(query.above_top_solid(v.worldx,v.worldz))",
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

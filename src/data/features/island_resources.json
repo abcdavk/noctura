@@ -1,0 +1,20 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "dave:island_resources"
+    },
+    "structure_name": "mystructure:resources",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_whitelist": [
+          "minecraft:grass",
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

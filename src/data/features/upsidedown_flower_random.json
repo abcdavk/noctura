@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:upsidedown_flower_random"
+    },
+    "features": [
+      [
+        "dave:upsidedown_flower0_scatter",
+        7
+      ],
+      [
+        "dave:upsidedown_flower1_scatter",
+        5
+      ],
+      [
+        "dave:upsidedown_flower2_scatter",
+        5
+      ],
+      [
+        "dave:upsidedown_flower3_scatter",
+        5
+      ]
+    ]
+  }
+}

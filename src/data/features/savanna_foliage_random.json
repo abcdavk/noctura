@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:savanna_foliage_random"
+    },
+    "features": [
+      [
+        "dave:savanna_large_deadbush_feature",
+        5
+      ],
+      [
+        "dave:savanna_mycena_feature",
+        5
+      ],
+      [
+        "dave:savanna_tall_acacia_feature",
+        5
+      ],
+      [
+        "dave:savanna_tall_dead_bush_feature",
+        5
+      ]
+    ]
+  }
+}

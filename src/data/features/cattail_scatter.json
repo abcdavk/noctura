@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:scatter_feature": {
+      "description": {
+        "identifier": "dave:cattail_scatter"
+      },
+      "places_feature": "dave:cattail_feature",
+      "iterations": 32,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": 0,
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }

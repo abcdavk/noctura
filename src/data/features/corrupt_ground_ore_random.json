@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:corrupt_ground_ore_random"
+    },
+    "features": [
+      [
+        "dave:corrupt_netherrack_ore",
+        5
+      ],
+      [
+        "dave:corrupt_deepslate_ore",
+        5
+      ]
+    ]
+  }
+}

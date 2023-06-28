@@ -1,0 +1,151 @@
+{
+  "dave:large_tallgrass": {
+    "sound": "grass",
+    "textures" : "large_tallgrass"
+  },
+  "dave:extra_large_chest_gold": {
+    "sound": "wood"
+  },
+  "dave:timegate_block": {
+    "sound": "glass",
+    "textures" : "timegate"
+  },
+  "dave:dry_grass": {
+    "sound": "grass"
+  },
+  "dave:mycena": {
+    "sound": "grass"
+  },
+  "dave:tall_dead_bush": {
+    "sound": "grass"
+  },
+  "dave:tall_acacia": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower0": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower1": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower2": {
+    "sound": "grass"
+  },
+  "dave:upsidedown_flower3": {
+    "sound": "grass"
+  },
+  "dave:large_bush": {
+    "sound": "grass"
+  },
+  "dave:large_deadbush": {
+    "sound": "grass"
+  },
+  "dave:large_sapling_oak": {
+    "sound": "grass"
+  },
+  "dave:large_sapling_birch": {
+    "sound": "grass"
+  },
+  "dave:large_sapling_spruce": {
+    "sound": "grass"
+  },
+  "dave:wisteria_leaves3": {
+    "sound": "grass"
+  },
+  "dave:wisteria_vine3": {
+    "sound": "grass"
+  },
+  "dave:wisteria_leaves2": {
+    "sound": "grass"
+  },
+  "dave:wisteria_vine2": {
+    "sound": "grass"
+  },
+  "dave:wisteria_leaves1": {
+    "sound": "grass"
+  },
+  "dave:wisteria_vine1": {
+    "sound": "grass"
+  },
+  "dave:wisteria_leaves0": {
+    "sound": "grass"
+  },
+  "dave:wisteria_vine0": {
+    "sound": "grass"
+  },
+  "dave:beach_grass": {
+    "sound": "grass"
+  },
+  "dave:cattail": {
+    "sound": "grass"
+  },
+  "dave:mapple_leaves_orange": {
+    "sound": "grass"
+  },
+  "dave:mapple_leaves_red": {
+    "sound": "grass"
+  },
+  "dave:frosted_leaves": {
+    "sound": "grass"
+  },
+  "dave:fir_leaves": {
+    "sound": "grass"
+  },
+  "dave:baobab_leaves": {
+    "sound": "grass"
+  },
+  "dave:baobab_leaves_dry": {
+    "sound": "grass"
+  },
+  "dave:moss_leaves": {
+    "sound": "grass"
+  },
+  "dave:moss_hang": {
+    "sound": "grass",
+    "textures" : "moss_hang"
+  },
+  "dave:moss_hang_small": {
+    "sound": "grass",
+    "textures" : "moss_hang_small"
+  },
+  "dave:leaf_pile0": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "leaf_pile0"
+  },
+  "dave:leaf_pile1": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "leaf_pile1"
+  },
+  "dave:leaf_pile2": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "leaf_pile2"
+  },
+  "dave:leaf_pile3": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "leaf_pile3"
+  },
+  "dave:ground_flower0": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "ground_flower0"
+  },
+  "dave:ground_flower1": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "ground_flower1"
+  },
+  "dave:ground_flower2": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "ground_flower2"
+  },
+  "dave:ground_flower3": {
+    "isotropic": false,
+    "sound": "grass",
+    "textures" : "ground_flower3"
+  }
+}

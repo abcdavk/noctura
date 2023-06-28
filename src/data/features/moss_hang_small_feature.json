@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.220",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "dave:moss_hang_small_feature"
+    },
+    "places_block": {
+      "name": "dave:moss_hang_small"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_attach_to": {
+      "top": [
+        "dave:moss_leaves"
+      ]
+    }
+  }
+}

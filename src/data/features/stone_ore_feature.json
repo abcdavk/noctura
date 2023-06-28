@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "dave:stone_ore_feature"
+    },
+    "count": 32,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:stone",
+        "may_replace": [
+          "minecraft:clay",
+          "minecraft:dirt",
+          "minecraft:grass",
+          "minecraft:gravel",
+          "minecraft:moss_block",
+          "minecraft:mud",
+          "minecraft:mycelium",
+          "minecraft:podzol",
+          "minecraft:sand"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:new_foliage_random"
+    },
+    "features": [
+      [
+        "dave:large_sapling_oak_feature",
+        5
+      ],
+      [
+        "dave:large_tallgrass_feature",
+        5
+      ],
+      [
+        "dave:large_bush_feature",
+        5
+      ],
+      [
+        "dave:sapling_oak_feature",
+        5
+      ]
+    ]
+  }
+}

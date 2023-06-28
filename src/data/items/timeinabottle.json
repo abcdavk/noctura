@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "dave:timeinabottle"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.potion"
+      },
+      "minecraft:icon": {
+        "texture": "timeinabottle"
+      }
+    },
+    "events": {
+    }
+  }
+}

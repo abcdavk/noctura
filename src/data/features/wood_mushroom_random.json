@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:wood_mushroom_random"
+    },
+    "features": [
+      [
+        "dave:wood_mushroom_north_scatter",
+        5
+      ],
+      [
+        "dave:wood_mushroom_east_scatter",
+        5
+      ],
+      [
+        "dave:wood_mushroom_west_scatter",
+        5
+      ],
+      [
+        "dave:wood_mushroom_south_scatter",
+        5
+      ]
+    ]
+  }
+}

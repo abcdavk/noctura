@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "dave:wisteria_flower2"
+    },
+    "components": {
+      "minecraft:use_duration": 1,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "low",
+        "can_always_eat": true,
+        "on_consume": {
+          "event": "dave:on_consume"
+        }
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.wisteria_flower"
+      },
+      "minecraft:icon": {
+        "texture": "wisteria_flower2"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    },
+    "events": {
+      "dave:on_consume": {
+        "run_command": {
+          "command": [
+            "effect @p regeneration 1 2",
+            "effect @p hunger 2 15"
+          ]
+        }
+      }
+    }
+  }
+}

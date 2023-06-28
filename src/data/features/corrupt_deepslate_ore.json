@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "dave:corrupt_deepslate_ore"
+    },
+    "count": 32,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:deepslate",
+        "may_replace": [
+          "minecraft:deepslate",
+          "minecraft:blackstone"
+        ]
+      }
+    ]
+  }
+}

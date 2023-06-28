@@ -1,0 +1,44 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dave:moss_hang"
+    },
+    "components": {
+      "tag:cut_plant": {},
+      "minecraft:collision_box": false,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:loot": "loot_tables/blocks/moss.json",
+      "minecraft:breathability": "air",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.upsidedown_cross_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "moss_hang",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:map_color": "#feffed",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "down"
+            ],
+            "block_filter": [
+              "leaves",
+              "leaves2",
+              "dave:moss_leaves",
+              "stone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

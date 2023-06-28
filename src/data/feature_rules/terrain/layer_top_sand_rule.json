@@ -1,0 +1,44 @@
+{
+  "format_version": "1.13",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "dave:layer_top_sand_rule",
+      "places_feature": "dave:sand2"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "beach"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "desert"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 256,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "(query.above_top_solid(v.worldx,v.worldz))"
+    }
+  }
+}

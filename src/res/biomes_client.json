@@ -1,0 +1,56 @@
+{
+  "biomes": {
+    "default": {
+      "fog_identifier": "dave:default_fog",
+      "fog_ids_to_merge": [
+        "dave:default_fog"
+      ],
+      "inherit_from_prior_fog": false,
+      "remove_all_prior_fog": false,
+      "water_surface_color": "#032254",
+      "water_surface_transparency": 0.650
+    },
+    "plains": {
+      "fog_identifier": "dave:forest_fog"
+    },
+    "forest": {
+      "fog_identifier": "dave:forest_fog"
+    },
+    "jungle": {
+      "fog_identifier": "dave:forest_fog"
+    },
+    "flower_forest": {
+      "fog_identifier": "dave:autumn_fog"
+    },
+    "ocean": {
+      "fog_identifier": "dave:autumn_fog"
+    },
+    "birch_forest": {
+      "fog_identifier": "dave:forest_fog"
+    },
+    "meadow": {
+      "fog_identifier": "dave:wisteria_fog"
+    },
+    "cold_ocean": {
+      "fog_identifier": "dave:frozen_fog"
+    },
+    "frozen_ocean": {
+      "fog_identifier": "dave:frozen_fog"
+    },
+    "cold_taiga": {
+      "fog_identifier": "dave:frozen_fog"
+    },
+    "taiga": {
+      "fog_identifier": "dave:forest_fog"
+    },
+    "savanna": {
+      "fog_identifier": "dave:mesa_fog"
+    },
+    "mesa": {
+      "fog_identifier": "dave:mesa_fog"
+    },
+    "desert": {
+      "fog_identifier": "dave:desert_fog"
+    }
+  }
+}

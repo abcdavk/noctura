@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:ground_ore_random"
+    },
+    "features": [
+      [
+        "dave:stone_ore_feature",
+        5
+      ],
+      [
+        "dave:cobblestone_ore_feature",
+        5
+      ],
+      [
+        "dave:mossy_cobblestone_ore_feature",
+        5
+      ],
+      [
+        "dave:gravel_ore_feature",
+        5
+      ]
+    ]
+  }
+}

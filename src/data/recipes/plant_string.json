@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "dave:plant_string"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      "XX"
+    ],
+    "key": {
+      "X": {
+        "item": "dave:plant_twine"
+      }
+    },
+	"unlock": [
+      {
+        "item": "dave:cut_plant"
+      }
+    ],
+    "result": {
+      "item": "dave:plant_string",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "dave:redsand"
+    },
+    "places_block": {
+      "name": "minecraft:sand",
+      "states": {
+        "sand_type": "red"
+      }
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:stone",
+      "minecraft:air"
+    ]
+  }
+}

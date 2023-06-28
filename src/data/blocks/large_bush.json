@@ -1,0 +1,43 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dave:large_bush"
+    },
+    "components": {
+      "tag:cut_plant": {},
+      "minecraft:collision_box": false,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:loot": "loot_tables/blocks/large_tallgrass.json",
+      "minecraft:breathability": "air",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.large_cross_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "large_bush",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "grass",
+              "dirt",
+              "sand"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "dave:cobblestone"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "OOO",
+      "OOO",
+      "OOO"
+    ],
+    "key": {
+      "O": {
+        "tag": "dave:stone_shard"
+      }
+    },
+	"unlock": [
+      {
+        "item": "dave:stone_shard"
+      }
+    ],
+    "result": {
+      "item": "minecraft:cobblestone",
+      "count": 1
+    }
+  }
+}

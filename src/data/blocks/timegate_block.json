@@ -1,0 +1,56 @@
+{
+  "format_version": "1.17",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dave:timegate_block"
+    },
+    "components": {
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 15,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destroy_time": 99999,
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "blend",
+          "texture": "timegate",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "on_placing"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "on_destroy"
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16,
+          0,
+          16
+        ]
+      },
+      "minecraft:on_interact": {
+        "event": "openform",
+        "target": "self"
+      }
+    },
+    "events": {
+      "openform": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "execute as @p run scriptevent dave:timegate_block_detect"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "dave:mushroom_random"
+    },
+    "features": [
+      [
+        "minecraft:brown_mushroom_feature",
+        5
+      ],
+      [
+        "minecraft:red_mushroom_feature",
+        5
+      ]
+    ]
+  }
+}

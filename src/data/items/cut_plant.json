@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "nature",
+      "identifier": "dave:cut_plant"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.nature_misc"
+      },
+      "minecraft:icon": {
+        "texture": "cut_plant"
+      },
+      "minecraft:display_name": {
+        "value": "Cut Plant\n§7Can be obtained by cutting the plant with §oWooden Shears§r"
+      }
+    },
+    "events": {}
+  }
+}
